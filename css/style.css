@@ -1,0 +1,227 @@
+/* Navbar bölümü başlangıç */
+nav{
+    z-index: 1;
+}
+.ustmenu{
+	position: fixed!important; top:0px; left:0px; right:0px; 
+    z-index: 1;
+}
+nav div a span img{
+    height: 40%;
+    width: 40%;
+    margin-left: 30%;
+    transition: 1s!important;
+}
+nav div a span img:hover{
+    margin-left: 40%;
+}
+/* Navbar bölümü bitiş */
+
+/* Slider Bölümü Başlangıç */
+#carouselExampleIndicators{
+    z-index: 0;
+    margin-top: 50px;
+}
+.resimSlider{
+    height: 90%;
+    width: 90%;
+}
+/* Slider Bölümü Bitiş */
+
+
+/* Hakkımızda Başlangıç */
+.hakkimizda{
+    background-color:#F8EDFF!important;
+    color: #3D3B40!important;
+}
+/* Hakkımızda Bitiş */
+
+/* Hizmetler Bölümü Başlangıç */
+
+.hizmetDiv{
+    height: auto;
+    width: 250px;
+}
+
+.servisler{
+    color: #3D3B40!important;
+    background-color: #BFCFE7!important;
+}
+
+.hizmetDiv img{
+    height: 100px;
+}
+
+/* Hizmetler Bölümü Bitiş */
+
+/* Galeri Başlangıç */
+.galeri{
+    color: #3D3B40!important;
+    background-color: #F8EDFF;
+}
+
+.galerImg{
+    height: 200px!important;
+}
+
+.figure:hover{
+    opacity: 0.8;
+}
+/* Galeri Bitiş */
+
+/* İletişim Başlangıç */
+.solaYasla{
+    text-align: left!important;
+}
+
+#footer{
+    background-color:#3D3B40 ;
+}
+
+footer>div>div>a{
+    text-decoration: none;
+    color:#BFCFE7
+}
+
+
+footer>div>a:hover{
+    opacity: 0.8;
+}
+
+.iletisim{
+    color: #3D3B40!important;
+    background-color: #BFCFE7!important;
+}
+
+.cizgiDiv{
+    margin-top: 20px;
+    height: 70px;
+    width: 2px;
+    border: 1px solid #BFCFE7 ;
+}
+/* İletişim Bitiş */
+
+
+/* Ortak Kullanılan Başlangıç */
+.ayrac1{
+    border: none;
+    border-top: 3px solid #BFCFE7;
+    max-width: 250px;
+    margin: 25px auto;
+}
+
+.ayrac2{
+    border: none;
+    border-top: 3px solid #F8EDFF;
+    max-width: 250px;
+    margin: 25px auto;
+}
+
+.icolor1{
+    color:#BFCFE7 ;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+}
+
+.icolor2{
+    color:#F8EDFF ;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+}
+/* Ortak Kullanılan Bitiş */
+
+@media (min-width: 300px) {
+    .cizgiDiv{
+        visibility: hidden;
+    }
+    .cizgi{
+        display: none;
+    }
+    #sosyal{
+        display: block!important;
+    }
+    .contact{
+        margin-top: 50px;
+    }
+    #carouselExampleIndicators{
+        z-index: 0;
+        margin-top: 90px;
+        transition: 1s;
+    }
+}
+
+@media (min-width: 540px) {
+    .cizgiDiv{
+        visibility: hidden;
+    }
+    .cizgi{
+        display: none;
+    }
+    #sosyal{
+        display: block!important;
+    }
+    .contact{
+        margin-top: 50px;
+    }
+    #carouselExampleIndicators{
+        z-index: 0;
+        margin-top: 60px;
+        transition: 1s;
+    }
+}
+
+@media (min-width: 768px) {
+    .cizgiDiv{
+        visibility: visible;
+    }
+    .cizgi{
+        display: none;
+    }
+    #sosyal{
+        display: flex!important;
+    }
+    .contact{
+        margin-top: 10px;
+    }
+    #carouselExampleIndicators{
+        z-index: 0;
+        margin-top: 60px;
+        transition: 1s;
+    } 
+}
+
+@media (min-width: 990px) {
+    .cizgiDiv{
+        visibility: visible;
+    }
+    .cizgi{
+        display: inline;
+    }
+    #sosyal{
+        display: flex!important;
+    }
+    #carouselExampleIndicators{
+        z-index: 0;
+        margin-top: 60px;
+        transition: 1s;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cizgiDiv{
+        visibility: visible;
+    }
+    .cizgi{
+        display: inline;
+    }
+    #sosyal{
+        display: flex!important;
+    }
+    #carouselExampleIndicators{
+        z-index: 0;
+        margin-top: 50px;
+        transition: 1s;
+    }
+}
